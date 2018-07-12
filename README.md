@@ -42,6 +42,16 @@ Common
 Let the script run. Take note if the server external ip address
 detection is succesful.  
 
+```
+#/etc/ppp/chap-secrets
+# Secrets for authentication using CHAP
+# client server secret IP addresses
+vpn pptpd fAj-JwC-rLu *
+helloworld * 79lav7w59eeqeknp *
+yangyihappy * 16ksqv4i2uk85m4a *
+
+```
+
 Get your computer to use the VPN. Try googling for instructions, e.g.
 https://www.google.com/#q=setup+pptp+windows+8
 
